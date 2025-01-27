@@ -1,0 +1,24 @@
+#Movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+
+#model{
+    display:none;
+    background-color: aqua;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 25rem;
+    width: max-content;
+    padding: 1rem;
+}
+
+#close{
+   padding:1rem;
+}
